@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+}
+
+
+.f-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.profile-card {
+  border: 2px solid skyblue; 
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: black;
+}
+
+
+.profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-pic {
+  border-radius: 50px;
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px; 
+}
+
+
+.verified-badge {
+  position: absolute; 
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height: 04px;
+  border-radius: 00px; 
+  background-color: white;
+  padding: 2px;
+}
+
+
+.profile-name {
+  font-size: 1.5em;
+  margin-bottom: 5px; 
+}
+
+.profile-bio {
+  color: gray;
+  font-size: 1em;
+
+}
+
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.profile-stats div {
+text-align: center;
+}
+
+.profile-stats h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.profile-desc {
+  font-size: 0.9;
+  color: black;
+  margin: 40px -9px 100px;
+  text-align: center;
+  line-height: 1.9;
+  width: 900px;
+  max-width: 400px;
+
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 50px; 
+  margin-top: -60px;
+}
+
+.logo img {
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+
+
+.profile-btn {
+    
+    background-color:white;
+    padding: 5px 50px ; 
+    font-size: 17px; 
+    text-align: center;
+    color:gainsboro;
+    border-radius: 200px;
+    border: 2px solid gainsboro;
+}
+
+.profile-btn:hover {
+    background-color: blue;
+}
+.small-pic-container {
+  position: relative; 
+}
+
+.ellipsis::after {
+  content: '\2807';
+  font-size: 25px;
+  position: absolute;
+  left:380px ; 
+  margin-top: -290px;
+
+
+
+
+}

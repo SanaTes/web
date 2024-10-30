@@ -1,0 +1,24 @@
+/* TODO */
+/* Basic button styling */
+
+
+/* Pink button */
+    .button.pink {
+            background-color:hotpink ;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 15px;
+            border: 4px solid rgb(220, 85, 152) ;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s;
+        
+    }
+
+.button.pink:hover {
+    background-color:rgb(176, 90, 119);
+    border-color :rgb(111, 18, 111);
+   
+}
+

@@ -1,0 +1,40 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}.container{
+    background-color: lightgray;
+        margin: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right:100px;
+        padding: 20px;
+        border-radius: 5px;
+        width: 440px;
+
+}.button1{
+    background-color: darkcyan;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-size-adjust: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    
+}.button2{
+    background-color: darkgoldenrod;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-size-adjust: 18px;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+}.button3{
+    background-color:purple;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-size-adjust: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
